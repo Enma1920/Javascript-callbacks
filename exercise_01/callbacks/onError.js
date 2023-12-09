@@ -9,12 +9,12 @@
  */
 /**
  * Void function that retuns an empty array
- * @param {none} 
+ * @param {none}
  * @returns array
  */
 
 const onError = () => {
-    return [];
+  return [];
 };
 
 export default onError;

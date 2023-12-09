@@ -12,7 +12,7 @@ console.log(transformStringToArray([], onError, onSuccess));
 console.log(transformStringToArray(true, onError, onSuccess));
 
 //test with value as empty string and log result
-console.log(transformStringToArray('', onError, onSuccess));
+console.log(transformStringToArray("", onError, onSuccess));
 
 //test with value as string and log result
-console.log(transformStringToArray('This is a string', onError, onSuccess));
+console.log(transformStringToArray("This is a string", onError, onSuccess));

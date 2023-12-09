@@ -13,22 +13,19 @@
  *  - array
  */
 
-
 /**
  * If value is a string and it is not empty transform it to an array
- * @param {any} value 
- * @param {Function} onError 
- * @param {Function} onSuccess 
+ * @param {any} value
+ * @param {Function} onError
+ * @param {Function} onSuccess
  * @returns array
  */
 
 const transformStringToArray = (value, onError, onSuccess) => {
-
-    if(typeof value !== 'string' || value === ''){
-        return onError();
-    }
-    return onSuccess(value);
-
+  if (typeof value !== "string" || value === "") {
+    return onError();
+  }
+  return onSuccess(value);
 };
 
 export default transformStringToArray;

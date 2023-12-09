@@ -10,14 +10,12 @@
 
 /**
  * Function that returns a string: Erorr: user not created
- * @param {none} 
+ * @param {none}
  * @returns string
  */
 
 const onError = () => {
-
-    return "Error: user not created";
-
+  return "Error: user not created";
 };
 
 export default onError;

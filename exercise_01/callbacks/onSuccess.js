@@ -16,9 +16,7 @@
  */
 
 const onSuccess = (value) => {
-
-    return value.split(' ');
-
-}
+  return value.split(" ");
+};
 
 export default onSuccess;
