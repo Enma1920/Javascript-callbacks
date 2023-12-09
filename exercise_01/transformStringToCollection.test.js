@@ -1,4 +1,6 @@
 import transformStringToArray from "./transformStringToCollection.js";
+import onError from "./callbacks/onError.js";
+import onSuccess from "./callbacks/onSuccess.js";
 
 describe("Given a function transformStringToArray", () => {
   describe("When it receives a string", () => {
