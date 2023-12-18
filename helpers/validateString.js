@@ -3,7 +3,7 @@
  * @returns boolean
  */
 const isString = (value) => {
-  if (value === undefined || typeof value !== "string" || value.length === 0) {
+  if (value === undefined || typeof value !== "string" || value.trim() === "") {
     return false;
   }
   return true;
