@@ -10,13 +10,10 @@ import isString from "../helpers/validateString.js";
 
 const transformStringToArray = (value, onError, onSuccess) => {
   if (isString(value)) {
-
     return onSuccess(value);
-
   }
 
   return onError();
-
 };
 
 export default transformStringToArray;
